@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
     <!-- Template JS Files -->
     <script type="text/javascript" src="js/modernizr.js"></script>
-    
+
 </head>
 <body class="rtl-version">
     <!-- Preloader Starts -->
@@ -116,7 +116,7 @@
                            data-target=".navbar-collapse.show"
                            class="navbar-brand link-menu scroll-to-target" href="#mainslider">
                             <!-- Logo White Starts -->
-                            <img id="logo-light" class="logo-light" src="img/favicon200.png" alt="logo-light" style="margin-top: 17px;"/>
+                            <img id="logo-light" class="logo-light" src="img/favicon200.png" alt="logo-light" style="margin-top: 17px;" />
                             <!-- Logo White Ends -->
                             <!-- Logo Black Starts -->
                             <img id="logo-dark" class="logo-dark" src="img/favicon300x100word.png" alt="logo-dark" />
@@ -647,7 +647,39 @@
                             <div class="meta">
                                 <span class="date"><i class="fa fa-calendar"></i>1-10-2018</span>
                                 <span><a href="blog-post-rtl.html"><i class="fa fa-commenting"></i> 18</a></span>
-                                <a class="pull-left" href="blog-post-rtl.html">إقرأ المزيد</a>
+
+                                <a class="pull-left" data-toggle="modal" data-target="#Modal1" href="javascript:void(0);" >إقرأ المزيد</a>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="Modal1" tabindex="1" role="dialog" aria-labelledby="Modal1Label" aria-hidden="true" style="position: fixed;top: 0;right: 0;bottom: 0;left: 0;z-index: 2000;background-color: #000;">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">تغليف المنقولات </h5>
+
+                                            </div>
+                                            <div class="modal-body">
+                                                <div>
+                                                    <img class="img-fluid" src="img/blog/1.png" />
+                                                </div>
+                                                <div>
+                                                    تغليف المنقولات هى عملية سهلة وبسيطة وتتم بإحترافية شديدة من قبل العاملين لدينا وذلك حفاظاً منا على سلامة المنقولات من الكسر أو الخدش أوالاتربه وتوصيلها بأمان لعملائنا الكرام و تتم عملية التغليف بعدة طرق متعددة منها التغليف بالكرتون ،أو التغليف بالبابيلزأو نقوم بالتغليف عن طريق جمع النوعين من التغليف مع بعض حيث يتم تحديد نوع التغليف بناءً على المنقولات أو بحسب رغبة العملاء
+
+                                                    فكل غرضٍ وكل أثاثٍ يحتاج إلى تغليفٍ خاص لنتعرف على كل نوعٍ وما يناسبه:
+                                                    التغليف العادى : وهو تغليفٌ ناعم يُستخدم لكثير من الأثاث ومع ذلك فيتم وضع أكثر من تغليف أحياناً لكل غرض وذلك لتأمين الحماية الأكبر والعمال هم من يقومون بهذه العملية ولديهم الخبرة لكل نوع وطريقة تغليفه وما يناسبه.
+                                                    التغليف الفقاعى : وهو تغليفٌ كشكل الفقاعات يقوم بحماية الزجاج والخشب وكل ما يتعرض للخدش وهو ممتاز ويُستخدم الصحون والأواني وغيرهم.
+                                                    التغليف الكرتوني : التغليف الكرتوني أو الورق المقوى هو تغليفٌ ممتاز وقويٌ جداً يستخدم للأغراض الثمينة وللكثير من العفش وحسب أنواعه.
+                                                    ،ففى ببعض الحيان يطلب بعض عملائنا الكرام بإتمام عملية التغليف بأنفسهم وذلك حفاظاً على أسرارهم فيطلب العميل من شركتنا إرسال خامات وأدوات التغليف بسعر المصنع،فتسهيلاً من شركتنا لعملائنا يتم إرسال أحد مندوبينا بخامات التغليف مع تقديم الشرح الوافى لعملائنا عن كيفية التغليف للتسهيل على عملائنا مع إرسال معدة يدوية صغيرة وبسيطة منخفضة السعر لإتمام عملية التغليف التى تتم من خلال عملائنا ثم يأتى بعد ذلك عملية التعبئة
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Modal -->
                             </div>
                         </div>
                         <!-- Excerpt Ends -->
@@ -801,7 +833,7 @@
         </section>
         <!-- Testimonials Section Ends -->
         <!-- Portfolio Section Starts -->
-        <section id="portfolio" class="portfolio" >
+        <section id="portfolio" class="portfolio">
             <!-- Container Starts -->
             <div class="container">
                 <!-- Main Heading Starts -->
@@ -836,7 +868,8 @@
                                 <!-- Thumbnail Starts -->
                                 <figure class="thumbnail thumbnail__portfolio">
                                     <a class="image-wrap" href="img/projects/project-1.jpg" data-gal="magnific-pop-up[image]" title="نموذج صورة">
-                                    <img class="img-fluid" src="img/projects/project-1.jpg" alt="Image Project" /><span class="zoom-icon"></span></a>
+                                        <img class="img-fluid" src="img/projects/project-1.jpg" alt="Image Project" /><span class="zoom-icon"></span>
+                                    </a>
                                 </figure>
                                 <!-- Thumbnail Ends -->
                                 <!-- Caption Starts -->
@@ -1599,6 +1632,10 @@
             createCookie("is_dark", 'true', 365);
 
         });
+
+        function hidendisplay() {
+            $(".modal-backdrop").css("display", "none");
+        }
     </script>
 </body>
 </html>
