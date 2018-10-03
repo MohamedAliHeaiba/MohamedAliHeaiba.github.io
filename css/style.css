@@ -584,7 +584,7 @@ body.double-diagonal .team::before,
 body.double-diagonal .blog::before,
 body.double-diagonal .contact::before,
 body.double-diagonal .logos::before {
-    height: 5%;
+    height: 30px;
     -webkit-transform: rotate(-3deg);
     transform: rotate(-3deg);
     -webkit-transform-origin: 3% 0;
