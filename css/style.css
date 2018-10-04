@@ -934,8 +934,8 @@ a:hover {
 .logo a img {
     width: 100%;
     position: absolute;
-    top: -10px;
-    left: 0;
+    top: -17px;
+    left: 25px;
     transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
     -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
     -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
@@ -3046,7 +3046,7 @@ ul.bxslider img {
         margin-bottom: 17px;
     }
     .full-image-container {
-        background-image: url('../img/about.png');
+        background-image: url('../img/about_mobile.jpg');
         background-size: cover;
     }
     .projectmanager .img-fluid {
